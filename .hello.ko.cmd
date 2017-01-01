@@ -1,1 +1,0 @@
-cmd_/home/sghuge/opensource/eudyptula/hello.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/sghuge/opensource/eudyptula/hello.ko /home/sghuge/opensource/eudyptula/hello.o /home/sghuge/opensource/eudyptula/hello.mod.o
