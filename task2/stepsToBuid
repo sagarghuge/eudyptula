@@ -1,0 +1,19 @@
+1. Download linux kernel source code
+
+2. cd into source code 
+
+3. You have to configure the kernel using 'make menuconfig'.
+   Make sure you turn on CONFIG_LOCALVERSION_AUTO=y.
+
+4. Compile kernel using 'make'
+
+5. Need to compile kernel modules using 'make modules'
+
+6. Install modules using 'make modules_install'
+
+7. And finally you have to install built kernel using 'make install'
+
+8. To reflect changes and boot your machine using recently build kernel do reboot and select appropriate kernel version. 
+
+
+
