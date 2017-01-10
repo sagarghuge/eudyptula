@@ -15,5 +15,7 @@
 
 8. To reflect changes and boot your machine using recently build kernel do reboot and select appropriate kernel version. 
 
+===============================================
 
-
+Proof : You can redirect 'dmesg' output in file and send it as proof of task. 
+	Very first line of 'dmesg' contains the boot information. 
