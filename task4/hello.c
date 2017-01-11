@@ -10,6 +10,7 @@ static int __init hello_init(void)
 
 static void __exit hello_exit(void)
 {
+	printk(KERN_DEBUG "See you\n");
 }
 
 module_init(hello_init);
