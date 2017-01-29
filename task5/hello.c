@@ -13,7 +13,8 @@ static struct usb_device_id hello_table[] = {
 
 MODULE_DEVICE_TABLE(usb, hello_table);
 
-static int hello_probe(struct usb_interface *intf, const struct usb_device_id *id)
+static int hello_probe(struct usb_interface *intf,
+	const struct usb_device_id *id)
 {
 	pr_alert("USB keyboard connected \n");
 	return 0;
