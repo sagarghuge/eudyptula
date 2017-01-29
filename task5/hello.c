@@ -16,7 +16,7 @@ MODULE_DEVICE_TABLE(usb, hello_table);
 static int hello_probe(struct usb_interface *intf,
 	const struct usb_device_id *id)
 {
-	pr_alert("USB keyboard connected \n");
+	pr_alert("USB keyboard connected\n");
 	return 0;
 }
 
@@ -35,6 +35,7 @@ static struct usb_driver my_driver = {
 static int hello_init(void)
 {
 	int result;
+
 	pr_debug("Hello World\n");
 
 	result = usb_register(&my_driver);
